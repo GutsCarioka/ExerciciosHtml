@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Hospital </title>
+    <style>
+        body{
+            background-color: rgb(188, 235, 249);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <fieldset >
+        <legend><strong>Dados Pessoais:</strong><br></legend>
+        
+            <Label for="nome">Nome : </Label>
+            <input type="text" name="Nome_usuario" id="name"><br>
+            <label for="Data">Nascimento (dd/mm/aaaa): </label>
+            <input type="date" name="Dada_nascimeto" id="Data_nasc"><br>
+            <label for="Endereco">Endereço:</label>
+            <input type="text" name="Endereço_Usuario" id=" Endereco"><br>
+            <label for="Cidade">Cidade</label>
+            <input type="text" name="cidade_usuario" id=" Cidade"><br>
+        
+    </fieldset>
+    <fieldset>
+        <legend><strong>Historico Medico: </strong></legend>
+        
+            <label for="Variula">Variula:</label>
+            <input type="checkbox" name="Variula" id="Variula"><br>
+            <label for="Caxumba">Caxumba:</label>
+            <input type="checkbox" name="Caxumba" id="Caxumba"><br>
+            <label for="Tosse">Tosse:</label>
+            <input type="checkbox" name="Tosse" id="Tosse"><br>
+            <label for="Tontura">Tontura:</label>
+            <input type="checkbox" name="Tontura" id="Tontura">
+        
+    </fieldset>
+    <fieldset>
+        <legend><strong>Opção:</strong></legend>
+        
+                    <select name="Opcao" id="Opcao">br
+                        <option value="Medico Geral">Medico Geral</option>
+                        <option value="Cardiologista">Cardiologista</option>
+                        <option value="Dermatologista">Dermatologista</option>
+                        <option value="Gastroenterologista">Gastroenterologista</option>
+                    </select>
+       
+    </fieldset>
+    <fieldset>
+        <legend><Strong>Medicação Atual :</Strong></legend>
+         Atualmente Você usa Algum Tipo de Medicamento: 
+            <br>
+       
+            <label for="Uso_medicamento">Sim</label>
+            <input type="radio"name="Resposta_sim" id="resp_s"><br>
+            <label for="Uso_medicamento">Não</label>
+            <input type="radio"name="Resposta_sim" id="resp_s"><br><br>
+            Se Você Fizer Utilização de Algum medicamento informe-o No Espaço abaixo: 
+            <br>
+            <textarea rows="6" cols="65" placeholder="Informe o Seu Medicamento" name="" id=""></textarea>
+            <br><br>
+    </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

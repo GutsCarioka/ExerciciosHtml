@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Continuação</title>
+</head>
+<body>
+    <h2>Alguns tipos de estado para o atributo</h2>
+    <form action="">
+        <fieldset>
+            <legend>Dados De formulario</legend>
+            <label for="cor">Cor: </label>
+            <input type="color" name="Define cor" id="cor">
+            <br><br>
+            <label for="Data">Data: </label>
+            <input type="date" id="data" name="data" min="2000-01-01"><br>
+            <label for="datahora">Data Hora local: </label>
+            <input type=" datetime-local" id="datahora" name="dtime">
+        </fieldset><br>
+        <fieldset>
+            <legend>Divisão da Data</legend>
+            <label for="mes">Mês: </label>
+            <input type="month" name="Define mes" id="mes"><br>
+            <label for="numero">Numero: </label>
+            <input type="number" name="num" id="numero" min="1" max="15"><br>
+            <label for="intervalo">Intervalo: </label>
+            <input type="Range" name="Define_intervalo" id="intervalo"><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Outros</legend>
+            <label for="mes">Pesquisa: </label>
+            <input type="search" name="Define pesquisa" id="pesq"><br>
+            <label for="numero">Telefone: </label>
+            <input type="tel" name="num_tel" id="tel"><br>
+            <label for="intervalo">Endereço do site </label>
+            <input type="url" name="Define_endereço_Site" id="Site"><br>
+            <label for="intervalo"> Dia Semana do ano </label>
+            <input type="week" name="Numero Semana " id="Site"><br>
+        </fieldset>
+        Nome: <input type="text" id="Nome" name="Define_nome" value="Bill Gates" readonly><br>
+        Observação: <input type="text" id="Observação" name="Define_nome" value="Bill Gates" readonly><br>
+       
+
+    </form>
+</body>
+</html>

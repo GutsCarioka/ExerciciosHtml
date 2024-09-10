@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgba(204, 204, 204, 0.818);
+
+        }
+    </style>
+    <title>Formulario Pre Matricula</title>
+</head>
+<body>
+    <h1 align = center ><Str>Escola Virtual</Str></h1>
+    <h3 align = center><str>Formulário de Pré-Matricula</str></h2>
+    <hr border = 2 >
+    <fieldset >
+        <legend><strong>Dados Pessoais:</strong><br></legend>
+        <form action="" >
+            <Label for="nome">Nome do aluno : </Label>
+            <input type="text" name="Nome_Aluno" id="name"><br>
+            <label for="Data">Nascimento (dd/mm/aaaa): </label>
+            <input type="date" name="Dada_nascimeto" id="Data_nasc"><br>
+            <Label for="nome">Nome da Mãe : </Label>
+            <input type="text" name="Nome_Mae" id="name_mae"><br>
+            <Label for="nome">Nome do Pai : </Label>
+            <input type="text" name="Nome_Pai" id="name_pai"><br>
+            Telefone:
+            <label for="DDD">DDD ( </label>
+            <input type="tel" name="DDD_Telefone" id="DDD" size="1">
+            )
+            <label for="Telefone">Tel: </label>
+            <input type="tel" name="Telefone_usuario" id="Tel" size="10">
+            <label for="Ramal">Ramal:  </label>
+            <input type="tel" name="Ramal" id="tel" size="5"><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email_Aluno" id="email">
+            <hr size="2" color="grey">
+            <!-- Area de Informaçoes de Matricula  -->
+            <strong>Informaçoes de matricula</strong>
+            <table cellspacing="20" >
+                <tr>
+                    <td >Serie: </td>
+                    <td></td>
+                    <td >Turnos: </td>
+                    <td></td>
+                    <td></td>
+                    <td >Atividades Extracurriculares: </td>
+                
+                </tr>
+                
+                <tr>
+                    <td >
+                        <select name="serie_aluno" id="serie">
+                            <option value="Pré-escola">Pré-escola</option>
+                            <option value="Fundamental 1°">Fundamental 1°</option>
+                            <option value="Fundamental 2°">Fundamental 2°</option>
+                            <option value="Fundamental 3°">Fundamental 3°</option>
+                            <option value="Fundamental 4°">Fundamental 4°</option>
+                            <option value="Fundamental 5°">Fundamental 6°</option>
+                            <option value="Fundamental 5°">Fundamental 7°</option>
+                            <option value="Fundamental 5°">Fundamental 8°</option>
+                            <option value="Fundamental 5°">Fundamental 9°</option>
+                            <option value="Ensino medio 1°">Ensino medio 1°</option>
+                            <option value="Ensino medio 2°">Ensino medio 2°</option>
+                            <option value="Ensino medio 3°">Ensino medio 3°</option>
+                        </select>
+                        
+                    </td>
+                    <td></td>
+                    <td >  
+                        <input type="radio">
+                        <label for="Turno_aluno">Manha</label>
+                        
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td >  
+                        <input type="checkbox">
+                        <label for="Atividade_extra">Informática</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td >  
+                        <input type="radio">
+                        <label for="Turno_aluno">Tarde</label>
+                        
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td >
+                        <input type="checkbox">  
+                        <label for="Atividade_extra">Música</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td >
+                        <input type="checkbox">  
+                        <label for="Atividade_extra">Pintura</label>
+                        
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td >
+                        <input type="checkbox">  
+                        <label for="Atividade_extra">Balet</label>
+                        
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td >
+                        <input type="checkbox">  
+                        <label for="Atividade_extra">Judo</label>
+                        
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td >
+                        <input type="checkbox">  
+                        <label for="Atividade_extra">Futebol</label>
+                        
+                    </td>
+
+                </tr>
+            </table>
+            <center>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </center>
+        </form>
+            
+    </fieldset>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h2>Utilizando Formularios em Html</h2>
+    <form action="">
+        Primeiro Nome:<input type="text" name="Primeiro_Nome"><br>
+        Ultimo Nome:<input type="text" name="ultimo_nome">
+    </form>
+    <br>
+    <hr>
+    <p>Clique na label para alternar a opção dos radio-buttons</p>
+    <form>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="genero" id="masc" value="masculino">
+        <br>
+        <label for="fem">Feminino</label>
+        <input type="radio" name="genero" id="fem" value="Feminino">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <h3>Envie um email para:</h3>
+    <form action="mailto: gabrielRrr3423@gmail.com" method="post" enctype="text/plain">
+        Nome: <br>
+        <input type="text" name="Nome" value="seu_nome"><br>
+        Email: <br>
+        <input type="email" name="email" value="seu_email"><br>
+        comentario: <br>
+        <textarea rows="4" cols="50" placeholder="Seu comentario" name="" id=""></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        
+    </form>
+    <br><br>
+    <hr>
+    <form action="aula03.html" method="post" enctype="multipart/form-data"></form>
+        Escolha o arquivo a ser carregado clicando no botão abaixo..
+        <input type="file" name="arquivo" id=""><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+</body>
+</html>

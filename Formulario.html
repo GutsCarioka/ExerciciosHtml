@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Dados pessoais: </h3>
+    <form method="post" action="arquivo.php">
+        Primeiro Nome: <input type="text" name="Primeiro_nome" id=""><br>
+        Ultimo Nome: <input type="text" name="ultimo_nome"><br>
+        Data nascimento: <input type="date" name="datanasc">
+        <br><br>
+ <!-- campo hidden (oculto) para enviar o nome do pais -->
+        <input type="hiddem" name="pais" id="Brasil">
+        <br>
+        Gênero:
+        <br> 
+        <label for="masc">Masculino</label>
+        <input type="radio" name="Genero" id="masc" value="Masculino"><br>
+        <label for="fem">Feminino</label>
+        <input type="radio" name="Genero" id="fem" value="Feminino"><br><br>
+        E-mail: <input type="email" name="email"><br>
+        Senha: <input type="password" name="senha" id=""><br><br>
+        Ocupação: <br><br>
+        <select id="ocupacao" name="ocupacao">
+            <optgroup label="Técnico">
+                <option label="Desenvolvedor" value="desenvolvedor"></option>
+                <option label="Web Designer" value="designer"></option>
+            </optgroup>
+            <optgroup label="Não Técnico">
+                <option label="Consultor" value="consultor"></option>
+                <option label="Gerente" value="gerente"></option>
+            </optgroup>
+            <option label="Outro" value="outro"></option>
+        </select>
+        <br><br>
+        preferencias: <br>
+            <input type="checkbox" id="Pref1" name="prefs" value="Noticias">Envie-me noticias <br>
+            <input type="checkbox" id="Pref2" name="prefs" value="parceiros"> Oferta de parceiros <br>
+            <input type="checkbox" id="Pref3" name="prefs" value="marketing"> Envie-me o material de propaganda<br>
+            <br><br>
+            <input list="Navegadores" name="Navegador">
+            <datalist id="navegadores" >
+                <option value="Opera"></option>
+                <option value="FireFox"></option>
+                <option value="Interenet Explorer"></option>
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Edge"></option>
+            </datalist>
+            <label for="cor">Cor:</label>
+            <input type="color" name="define_cor" id="cor"><br>
+        
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

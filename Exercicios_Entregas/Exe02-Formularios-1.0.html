@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 01</title>
+    <style>
+        body{
+            background-color: rgba(204, 204, 204, 0.818);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio Formularios</h1><br>
+    <fieldset border = "2" >
+    <legend>Nome, sexo e escolaridade</legend>
+    <table border="2">
+        <tr>
+            <td width ="100" height = 40 align="center"><strong>Nome: </strong></td>
+            <td align="center" >
+                <form >
+                    <input type="text" name="Nome">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td width ="100" height = 40 align="center"><strong>Sexo: </strong></td>
+            <td width ="200" align="center">
+                <form >
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="genero" id="masc" value="masculino">
+                    <label for="fem">Feminino</label>
+                    <input type="radio" name="genero" id="fem" value="Feminino"> 
+                </form>      
+            </td>
+        </tr>
+        <tr>
+            
+            <td width ="100" height = 40  colspan="2">
+                <form action="">
+                    <label for="Escola"><Strong>Escolaridade: </Strong></label>
+                    <select name="Escolaridade" id="escola">br
+                        <option value="Ensino Medio">Ensino Medio</option>
+                        <option value="1 Grau">1ºGrau</option>
+                        <option value="2º Grau">2ºGrau</option>
+                        <option value="Superior">Superior</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</body>
+</html>
